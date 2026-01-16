@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
-// Tell Express to serve everything inside the 'frontend' folder
-app.use(express.static('frontend'));
+// Tell Express to serve everything inside the 'Frontend' folder
+app.use(express.static('../Frontend'));
 
 // The base URL for the OpenAI-compatible router
 const API_BASE_URL = "https://router.huggingface.co/v1";
