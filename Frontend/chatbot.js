@@ -12,7 +12,8 @@ class EcoTrackChatbot {
         this.isOpen = false;
         this.isTyping = false;
         this.conversationHistory = [];
-        this.apiEndpoint = 'https://ecotrack-7xq3.onrender.com';
+        this.apiEndpoint = 'https://ecotrack-7xq3.onrender.com/chat';
+
         
         this.init();
     }
